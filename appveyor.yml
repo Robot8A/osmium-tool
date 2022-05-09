@@ -30,4 +30,8 @@ install:
 build_script:
   - cd c:\projects/osmium-tool
   - build-appveyor.bat
+  
+artifacts:
+  - path: 'build*'
+
 
