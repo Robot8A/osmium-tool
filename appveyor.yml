@@ -32,6 +32,6 @@ build_script:
   - build-appveyor.bat
   
 artifacts:
-  - path: '\build\src\*\osmium.exe'
+  - path: '\build\src\*\*'
 
 
